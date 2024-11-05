@@ -125,7 +125,8 @@ function deleteLast() {
 
 function calculate() {
   try {
-    display.value = eval(display.value).toString();
+    // Cambiamos eval por Function para evaluar la expresión de manera más segura
+    display.value = new Function('return ' + display.value)().toString();
   } catch {
     display.value = 'Error';
   }
