@@ -134,14 +134,6 @@ function calculate() {
 
 const data = ref(null);
 
-onMounted(async () => {
-  try {
-    const response = await axios.get(import.meta.env.VITE_API_URL);
-    data.value = response.data;
-  } catch (error) {
-    console.error(error);
-  }
-});
 </script>
 
 <style scoped>
