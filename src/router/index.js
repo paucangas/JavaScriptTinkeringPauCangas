@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import CalculatorComponent from '../views/CalculatorComponent.vue';
 import LandingPageComponent from "../views/LandingPageComponent.vue";
 import UserPageComponent from "../views/UserPageComponent.vue";
