@@ -36,9 +36,9 @@ onMounted(() => {
         </button>
       </div>
       <div class="hidden lg:flex lg:justify-between lg:flex-grow">
-        <a href="/comments" class="text-2xl font-semibold leading-6 text-white tracking-wider hover-effect">Comentaris</a>
-        <a href="/user" class="text-2xl font-semibold leading-6 text-white tracking-wider hover-effect">Usuaris</a>
-        <a href="/calculator" class="text-2xl font-semibold leading-6 text-white tracking-wider hover-effect">Calculadora</a>
+        <a href="/#/comments" class="text-2xl font-semibold leading-6 text-white tracking-wider hover-effect">Comentaris</a>
+        <a href="/#/user" class="text-2xl font-semibold leading-6 text-white tracking-wider hover-effect">Usuaris</a>
+        <a href="/#/calculator" class="text-2xl font-semibold leading-6 text-white tracking-wider hover-effect">Calculadora</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a class="text-sm font-semibold leading-6 text-gray-900"><span aria-hidden="true"></span></a>
