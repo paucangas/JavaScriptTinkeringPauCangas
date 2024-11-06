@@ -125,8 +125,8 @@ function deleteLast() {
 
 function calculate() {
   try {
-    // Cambiamos eval por Function para evaluar la expresión de manera más segura
-    display.value = new Function('return ' + display.value)().toString();
+    const result = new Function('return ' + display.value)();
+    display.value = parseFloat(result.toFixed(10)).toString(); // Redondea a 10 decimales
   } catch {
     display.value = 'Error';
   }
